@@ -15,5 +15,16 @@ public class Treinadores extends Pessoa{
 	public String geteEspecialidade(){
 		return especialidadeAt;
 	}
+	
+	public String setEspecialidade(){
+		this.especialidadeAt = especialidadePar;
+	}
+	
+	@Override
+	public void mostrarInformacoes(){
+		System.out.println(Dados de Treinador);
+		super.mostrarInformacoes;
+		System.out.println("_____________");
+	}
 
 }

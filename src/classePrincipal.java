@@ -2,7 +2,10 @@
 public class classePrincipal {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Atleta obat_1 = new Atleta(1, "Mikael", 17, "Futebol");
+		
+		obat_1.mostrarInformacoes();
 
 	}
 

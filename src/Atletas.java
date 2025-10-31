@@ -17,4 +17,16 @@ public class Atletas extends Pessoa{
 		return modalidadeAt;
 	}
 	
+	//Setters
+		public String setModalidade(){
+			this.modalidadeAt = modalidadePar;
+		}
+	
+	@Override
+	public void mostrarInformacoes(){
+		System.out.println(Dados de Treinador);
+		super.mostrarInformacoes;
+		System.out.println("_____________");
+	}
+	
 }

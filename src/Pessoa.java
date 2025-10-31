@@ -44,4 +44,12 @@ public class Pessoa {
 	public void alterarIdade(int idadePar){
 		this.idadeAt = idadePar;
 	}
-}
+	
+	//Classe Pessoa
+	public void mostrarInformacoes(){
+		System.out.println(id);
+		System.out.println(nome);
+		System.out.println(idade);
+	}
+	
+	}
